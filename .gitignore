@@ -1,0 +1,25 @@
+# Because WordPress is SVN and this is git
+.svn
+
+# Because this really is a working directory, ignore vagrant's files
+/.vagrant
+
+# WordPress directory
+/www/wp
+/www/local-config.php
+/www/wp-cli.yml
+
+# wp-content directory
+/www/wp-content/plugins
+/www/wp-content/themes
+/www/wp-content/uploads
+/www/wp-content/local-sunrise.php
+
+# tests
+/www/wp-tests
+
+# phpMyAdmin
+/www/phpmyadmin
+
+# Logs
+www/wp-content/debug.log
